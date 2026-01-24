@@ -17,11 +17,12 @@ int main(){
     char Grade = 'A';   //-------
                        //       |    
     int value = Grade; // <------
-    cout<<value<<endl; //prints ASCII Value of "A"
+    cout<<"Type Cast Method One Value : "<<value<<endl; //prints ASCII Value of "A"
     
     
     double Price = 100.99; //----↓
-    int newPrice = price;  //←---
+    int newPrice = (int)price;  //←---
+    cout<<"Type Cast Method Two Value : "<<newPrice<<endl;
     
     return 0;
 }
