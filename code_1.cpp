@@ -23,6 +23,5 @@ int main(){
     double Price = 100.99; //----↓
     int newPrice = price;  //←---
     
-    
     return 0;
 }
