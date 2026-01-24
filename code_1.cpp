@@ -23,6 +23,9 @@ int main(){
     double Price = 100.99; //----↓
     int newPrice = (int)price;  //←---
     cout<<"Type Cast Method Two Value : "<<newPrice<<endl;
+
+    cout<<"Type Cast : "<< ( 5 / (double) 2 ) <<endl; //Use of Type cast
+
     
     return 0;
 }
