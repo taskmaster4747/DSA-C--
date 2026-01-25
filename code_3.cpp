@@ -8,13 +8,13 @@ int main(){
     int A , B;
     
     cout<<"Enter Value of A : "<<endl;
-    cin>>A;
+    cin>> A;
 
     cout<<"Enter Value of B "<<endl;
-    cin>>B;
+    cin>> B;
 
-    int sum = A+B;
-    cout<<"Sum of A and B is : "<<sum<<endl;    
+    int sum = A + B;
+    cout<<"Sum of A and B is : "<< sum <<endl;    
 
     return 0;
 }
