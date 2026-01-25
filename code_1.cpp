@@ -25,7 +25,10 @@ int main(){
     cout<<"Type Cast Method Two Value : "<<newPrice<<endl;
 
     cout<<"Type Cast : "<< ( 5 / (double) 2 ) <<endl; //Use of Type cast
-
     
+    //Type Cast Method three
+    int ans = (5 / (double)2 );
+    cout<<"Type Cast : "<<ans<<endl;
+
     return 0;
 }
