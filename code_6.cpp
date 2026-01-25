@@ -1,4 +1,4 @@
-//Even odd number using if else statemant
+//Even odd number using if else statement
 
 #include<iostream>
 using namespace std;

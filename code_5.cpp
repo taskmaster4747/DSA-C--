@@ -1,4 +1,4 @@
-//if else statemane
+//if else statemene
 
 #include<iostream>
 using namespace std;
