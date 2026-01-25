@@ -9,6 +9,7 @@ int main(){
 
   for(int i = 0; i <= n ; i++){
     sum += i;
+     cout<<"internal process Sum value : "<<sum<<endl;
   }
 
   cout<<"Sum is : "<<sum<<endl;
