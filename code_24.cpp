@@ -9,7 +9,8 @@ int main(){
      long fac = 1;
     for(int n = 1; n <= i; n++){
             fac = fac * n; // storing value in fac memory and then multipaying that value with next n++;
-            cout<<n<<" ";
+            cout<<n;
+            if (n < i) cout << " x ";
     }
     cout<<endl<<"factorial : "<< fac;
 
